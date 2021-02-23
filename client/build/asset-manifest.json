@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.20b69ee5.chunk.css",
+    "main.js": "/static/js/main.f399e359.chunk.js",
+    "main.js.map": "/static/js/main.f399e359.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ff75c540.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ff75c540.js.map",
+    "static/css/2.887e6022.chunk.css": "/static/css/2.887e6022.chunk.css",
+    "static/js/2.25e2b1d0.chunk.js": "/static/js/2.25e2b1d0.chunk.js",
+    "static/js/2.25e2b1d0.chunk.js.map": "/static/js/2.25e2b1d0.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.56ccf62f16e35f76d48e474fba1a0b76.js": "/precache-manifest.56ccf62f16e35f76d48e474fba1a0b76.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.887e6022.chunk.css.map": "/static/css/2.887e6022.chunk.css.map",
+    "static/css/main.20b69ee5.chunk.css.map": "/static/css/main.20b69ee5.chunk.css.map",
+    "static/media/home.scss": "/static/media/Black Vosten Personal Use.167dc1c2.ttf",
+    "static/media/mdb.css": "/static/media/arrow_right.8ef6a08c.svg",
+    "static/media/all.min.css": "/static/media/fa-solid-900.9ae050d1.woff2",
+    "static/media/gif_loading.gif": "/static/media/gif_loading.d831f2ac.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ff75c540.js",
+    "static/css/2.887e6022.chunk.css",
+    "static/js/2.25e2b1d0.chunk.js",
+    "static/css/main.20b69ee5.chunk.css",
+    "static/js/main.f399e359.chunk.js"
+  ]
+}

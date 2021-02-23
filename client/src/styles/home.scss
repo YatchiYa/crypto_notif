@@ -1,0 +1,336 @@
+
+
+@keyframes anim_show {
+    0%{ opacity: 0; margin-top: 15%;}
+    100% {opacity: 1; margin-top: 0%;}
+  }
+
+.builder_homepage{
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+
+    .body_side{
+        background: #ffffff;
+        margin: 18px 0px;
+        border-radius: 8px;
+        box-shadow: 0px 0px 8px white;
+    }
+
+    .dezdez{
+        background: white;
+        padding: 60px 18px;
+    }
+    .dezdezxx{
+        margin: 4% 33%;
+        padding: 60px 18px;
+    }
+    .outtt{
+        color: white;
+        cursor: pointer;
+        font-size: 23px;
+        margin: 5px 75px;
+        transition: .5s ease-in-out;
+
+        &:hover{
+            transform: scale(1.5);
+        }
+    }
+
+    .col_aside{
+        position: relative;
+        background: url(https://wow.zamimg.com/uploads/blog/images/20516-fonds-decran-en-4k-des-eternites-sylvarden.jpg);
+        background-size: 100% 100%;
+        height:91vh;
+        margin: 14px 31px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 8px white;
+    }
+
+    .nom_holder{
+        color: white;
+        text-align: center;
+        border-bottom: 4px solid white;
+        margin: 12px 0;
+        padding-bottom: 10px;
+
+        h4{
+            text-align: center;text-align: center;
+            width: 100%;
+            font-size: 21px;
+            font-style: italic;
+            font-family: serif;
+            .icoon{    
+                float: left;
+                font-size: 86px;
+            }
+            label{
+                font-size: 22px;
+                padding: 36px 15px;
+                text-transform: capitalize;
+            }
+        }
+        .fer {
+            color: red;
+        }
+    }
+
+    .ccl{
+        color: white;
+        color: white;
+        width: 100%;
+        text-align: center;
+        font-size: initial;
+        font-family: cursive;
+        padding: 8px 7px;
+        transition: .4s ease-in-out;
+
+        &:hover{
+            background-color: rgba(238, 12, 219, 0.4);
+            border-radius: 5px;
+            margin: 0 15px;
+            cursor:pointer;
+        }
+    }
+    .cclx{
+        color: white;
+        color: white;
+        width: 100%;
+        text-align: center;
+        font-size: initial;
+        font-family: cursive;
+        padding: 8px 7px;
+        transition: .4s ease-in-out;
+
+        &:hover{
+            background-color: rgba(133, 66, 3, 0.4);
+            border-radius: 5px;
+            margin: 0 15px;
+            cursor:pointer;
+        }
+    }
+    #basicCollapse, #basicCollapsex{
+        color: #adadad;
+        font-size: 11px;
+        text-align: center;
+    }
+
+    .infos{
+        position: relative;
+        transition: .5s ease-in-out;
+        color: white;
+        font-size: 18px;
+        text-align: center;
+        margin-top: 44px;
+
+        &:hover{
+            text-decoration: underline;
+            cursor: pointer;
+            color: #1e72f0;
+            transform: scale(1.1);
+            font-weight: bold;
+        }
+        
+    }
+    .infosx{
+        position: relative;
+        transition: .5s ease-in-out;
+        color: white;
+        font-size: 18px;
+        text-align: center;
+        margin-top: 44px;
+        margin-bottom: 36px;
+
+        &:hover{
+            text-decoration: underline;
+            cursor: pointer;
+            color: #1e72f0;
+            transform: scale(1.1);
+            font-weight: bold;
+        }
+        
+    }
+
+    #seconddiv.coolclass{
+        max-height:100%;
+       }
+       
+       #seconddiv {
+        max-height: 0%;
+        transition: 0.8s;
+        overflow: hidden;
+       }
+
+       #seconddivx.coolclassx{
+        max-height:100%;
+       }
+       
+       #seconddivx {
+        max-height: 0%;
+        transition: 0.8s;
+        overflow: hidden;
+       }
+
+    .dom_holder{
+        color: white;
+        text-align: center;
+        border-bottom: 4px solid #fff;
+        margin: 12px 48px;
+        padding-bottom: 10px;
+
+
+        h5{
+            color : white;
+            text-align: initial;
+
+            span{
+                color: white;
+                font-size: smaller;
+                text-align: initial;
+            }
+        }
+    }
+
+
+    .footer_holder{
+        color: white;
+        text-align: center;
+        margin: 12px 0;
+
+        h5{
+            color : white;
+            font-size: smaller;
+        }
+    }
+
+    .sym_holder{
+        color: white;
+        text-align: center;
+        margin: 12px 0;
+        padding-bottom: 20px;
+        border-bottom: 1px solid white;
+
+    }
+    
+    .logout_holder{
+        color: white;
+        text-align: center;
+        margin: 12px 0;
+        padding-bottom: 20px;
+        border-bottom: 1px solid white;
+
+    }
+}
+
+.choice {
+    position: relative;
+    color: #fbfbfb;
+    text-align: end;
+    padding: 4px 25px;
+}
+
+.map_holder{
+    position: relative;
+    padding: 5px 6%;
+    text-align: center;
+
+    .map_holder{
+        position: relative;
+        text-align: center;
+    }
+    .bodydd{
+        position: relative;
+    }
+
+    h2{
+        position: relative;
+        color: #101067;
+        font-size: 13px;
+    }
+}
+
+.bodydd{
+    width: 100%;
+    height: 65px;
+    background: black;
+    padding: 0;
+    margin: 0;
+
+    h3{
+        color: white;
+        text-align: center;
+        font-size: 33px;
+    }
+}
+.builder-second{
+    position: relative;
+    background: url("../ccvr.jpg") no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+    
+    .title{
+        position: absolute;
+        color: #fff;
+        width: 100%;
+        text-align: center;
+        font-size: 32px;
+        margin-top: 8%;
+        text-transform: inherit;
+    }
+
+    .buiii{
+        padding-top: 20%;
+        transition: all .3s ease-in-out;
+            
+        .bbb{
+            color: white;
+            padding: 0% 16%;
+            border-radius: 15px;
+            overflow: hidden;
+            transition: 1s ease-in-out;
+
+
+                .name_builder, .firstname_builder{
+                    position: relative;
+                    background: rgba(0,0,0,0.8);
+                    transition: all .3s ease-in-out;
+                    color: white;
+                    border-radius: 15px;
+                    padding: 2% 5%;
+                    animation: anim_show 1s ease-in-out;
+        
+                    .label_builder{
+                        position: relative;
+                        font-size: 17px;
+                    }
+        
+                    .btn-next{
+                        position: relative;
+                    }
+
+                    input[type="checkbox"] {
+                        margin: 4px 0 0;
+                        margin-top: 1px \9;
+                        line-height: normal;
+                        width: 3%;
+                        height: 3%;
+                    }
+                }
+        }
+    }
+
+}
+
+.currency{
+    position: relative;
+    font-size: 17px;
+    display: flex;
+
+   .ttv{
+       position: relative;
+       margin-right: 34px;
+   }
+   .ttvx{
+       position: relative;
+   }
+}

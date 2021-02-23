@@ -1,0 +1,58 @@
+
+
+
+
+*******************************************
+atlas DB : 
+    -> mongoDB
+    -> ii12562@etu.parisdescartes.fr / Xenova22!%
+
+email : 
+    -> skybreaker.web.hosting@gmail.com
+    -> Head.Master
+    
+freenom : 
+    -> https://my.freenom.com/clientarea.php?action=domains
+
+hosting : 
+    -> Xenova22!%
+    -> Your Order Number is: 4278349963
+
+paypal :
+    -> Xenova22!2296
+
+mongolab : 
+    -> skybreaker.web.hosting@gmail.com
+    -> Xenova22!%
+
+namecheap:
+    -> skybreaker.web.hosting@gmail.com
+    -> skybreakerww
+    -> Xenova22!%2296
+
+heroku + react + nodejs + mongolab !! 
+herko does not support atlas mongoDB
+heroku process : 
+$ heroku login
+
+Create a new Git repository
+
+Initialize a git repository in a new or existing directory
+
+$ cd my-project/
+$ git init
+$ heroku git:remote -a sky-breakers
+
+Deploy your application
+
+Commit your code to the repository and deploy it to Heroku using Git.
+
+$ git add .
+$ git commit -am "make it better"
+$ git push heroku master
+
+Existing Git repository
+
+For existing repositories, simply add the heroku remote
+
+$ heroku git:remote -a sky-breakers

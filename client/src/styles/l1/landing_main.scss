@@ -1,0 +1,163 @@
+
+
+@font-face {
+    font-family: "graffitik";
+    src: url("../../assets/font/MALES.TTF");
+  }
+
+.landing_1{
+    position: relative;
+
+    .immg{
+        position: absolute;
+    }
+
+    .content{
+        width: 1004px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+
+
+
+    .nav_container{
+
+        position: relative;
+        color: white;
+        width: max-content;
+        padding: 5px 0px;
+            padding-top: 5px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        padding-top: 24px;
+        font-family: COVID;
+
+        .nav_bar_c{
+            position: relative;
+            display: flex;
+
+            
+            .home, .forum, .login, .game{
+                position: relative;
+                width: 100px;
+                text-align: center;
+                font-size: 21px;
+                padding: 5px 5px;
+                cursor: pointer;
+                border-bottom: 0px solid rgb(255, 102, 0);
+                transition: .3s ease-in;
+                margin-left: 10px;
+
+                a{
+                    color:white;
+                }
+                &:hover{
+                    border-bottom: 2px solid rgb(255, 102, 0);
+                    border-bottom-left-radius: 8px;
+                    border-bottom-right-radius: 8px;
+                    transform: scale(1.1);
+                    box-shadow: 0px 2px 1px rgb(255, 102, 0);
+                }
+            }
+            
+            .active{
+                border-bottom: 2px solid rgb(255, 102, 0);
+                border-bottom-left-radius: 8px;
+                border-bottom-right-radius: 8px;
+                transform: scale(1.1);
+                box-shadow: 0px 2px 1px rgb(255, 102, 0);
+            }
+        }
+    }
+
+    .row{
+
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        padding: 19px 7px;
+        border-bottom: 1px solid white;
+        box-shadow: 0px 2px 3px white;
+        border-radius: 5px;
+    
+    }
+
+    .body_container{
+        position: relative;
+        margin-top: 90px;
+
+        .first_side{
+            position: relative;
+
+            .contactBox{
+
+                position: relative;
+                color: white;
+                text-align: center;
+                border-bottom: 3px solid aliceblue;
+                box-shadow: 0px 0px 4px white;
+                padding: 5px 0px;
+                cursor: pointer;
+                transition: .2s ease-in;
+        
+                .ccursor{
+                    position: relative;
+                }
+                &:hover{
+                    border-bottom: 3px solid  rgb(255, 102, 0);
+                     box-shadow: 0px 0px 4px rgb(255, 102, 0); 
+                }
+            }
+
+            .contact_box_s{
+
+                position: relative;
+                color: white;
+                border: 1px solid white;
+                border-top: none;
+                box-shadow: 0px 0px 3px white;
+                padding: 20px 31px;
+                font-size: 10px;
+                text-align: center;
+                border-bottom-left-radius: 6px;
+                border-bottom-right-radius: 6px;
+            
+                .name, .email, .phone, .moreinfo{
+                    position: relative;
+                    transition: .1s ease-in;
+                }
+                .email, .moreinfo{
+                    cursor: pointer;
+                    &:hover{
+                        color: rgb(255, 102, 0);
+                        text-decoration: underline;
+                    }
+                }
+
+            }
+
+            .works_container{
+
+                position: relative;
+                width: 100%;
+                height: 289px;
+                border: 1px solid white;
+                margin-top: 20px;
+                box-shadow: 0px 0px 3px white;
+                border-bottom-left-radius: 6px;
+                border-bottom-right-radius: 6px;            
+            }
+        }
+
+        .middle_body{
+
+            position: relative;
+            height: 479px;
+        
+        }
+    }
+}
+
+

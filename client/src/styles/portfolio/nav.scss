@@ -1,0 +1,79 @@
+@keyframes show {
+    0% { display: none; }
+    99% { display: none; }
+    100% { display: inherit; }
+}
+
+
+.NavBar {
+    position: fixed;
+    width: 45px;
+    height: 100%;
+    border: 1px solid white;
+    transition: 1s ease-in-out;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    top: 0;
+    padding-top: 3%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 0 10px white;
+
+    a{
+        color: white;
+    }
+    .desc{
+        display: none;
+    }
+    .ico_home{
+        position: relative;
+        cursor: pointer;
+        transition: .5s ease-in-out;
+        padding: 40px 0;
+
+        &:hover{
+            transform: scale(1.3);
+            text-shadow: 0px 0px 8px white;
+        }
+    }
+    .ico_cv{
+        position: relative;
+        cursor: pointer;
+        transition: .5s ease-in-out;
+        padding: 40px 0;
+
+        &:hover{
+            transform: scale(1.3);
+            text-shadow: 0px 0px 8px white;
+        }
+    }
+    .ico_works{
+        position: relative;
+        cursor: pointer;
+        transition: .5s ease-in-out;
+        padding: 40px 0;
+
+        &:hover{
+            transform: scale(1.3);
+            text-shadow: 0px 0px 8px white;
+        }
+    }
+
+    
+    &:hover{
+        width: 170px;
+        text-align: inherit;
+
+        .desc{
+            font-size: 14px;
+            cursor: pointer;
+            margin-left: 5px;
+            display: initial;
+            animation: show 1s ease-in-out;
+        }
+        .ico_works, .ico_cv, .ico_home{
+            margin-left: 32px;
+        }
+    }
+}

@@ -1,0 +1,58 @@
+{
+  "name": "blitzkreig",
+  "author": "yatchi <yatchi.leet@gmail.com>",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.9.10",
+    "@material-ui/icons": "^4.9.1",
+    "axios": "^0.19.2",
+    "classnames": "^2.2.6",
+    "codyhouse-framework": "^2.8.2",
+    "framer-motion": "^2.9.5",
+    "jwt-decode": "^2.2.0",
+    "mdbootstrap": "^4.16.0",
+    "mdbreact": "^4.25.6",
+    "node-sass": "^4.13.1",
+    "react": "^16.13.1",
+    "react-awesome-button": "^6.5.1",
+    "react-dom": "^16.13.1",
+    "react-hexagon-grid": "^1.1.1",
+    "react-pageflip": "^1.0.0",
+    "react-particles-js": "^3.0.3",
+    "react-pdf": "^5.0.0",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0",
+    "react-three-fiber": "^5.3.5",
+    "redux-thunk": "^2.3.0",
+    "socket.io-client": "^2.3.0",
+    "styled-components": "^5.2.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "concurrently \"nodemon ./server/server.js \" \"npm start\""
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "concurrently": "^5.1.0",
+    "redux": "^4.0.5"
+  }
+}
