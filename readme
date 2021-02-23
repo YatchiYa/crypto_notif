@@ -1,0 +1,8 @@
+for client folder : 
+npm install
+npm start
+
+for server : 
+pip install -r requirements.txt
+py manage.py migrate
+py manage.py runserver
